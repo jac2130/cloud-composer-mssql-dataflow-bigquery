@@ -44,7 +44,8 @@ gsutil mb gs://[BUCKET_NAME]/
 4. Through the [Google Cloud Console](https://console.cloud.google.com) create a folder named **tmp** in the newly created bucket for the DataFlow staging files
 
 
-5. [Create a Cloud Composer Environment](https://cloud.google.com/composer/docs/how-to/managing/creating)
+5. [Create a Cloud Composer Environment](https://cloud.google.com/composer/docs/how-to/managing/configuring-private-ip)  ...importantly with private IP networking enabled! 
+
 * You need to use an image equal to or greater to: composer-1.10.6-airflow-1.10.6
  
 6. Create a BigQuery Dataset
